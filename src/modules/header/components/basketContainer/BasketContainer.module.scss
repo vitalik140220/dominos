@@ -1,0 +1,19 @@
+.basketContainer {
+	display: flex;
+	border: 2px solid rgb(186, 186, 186);
+	border-radius: 32px;
+	.basketButton {
+		background-color: rgb(254, 0, 33);
+		border-radius: 100px;
+		padding: 11px 42px;
+		height: 50px;
+		color: white;
+		font-size: 18px;
+		line-height: 21px;
+		margin-left: 2px;
+		cursor: pointer;
+		&:hover {
+			background-color: rgb(190, 23, 27);
+		}
+	}
+}

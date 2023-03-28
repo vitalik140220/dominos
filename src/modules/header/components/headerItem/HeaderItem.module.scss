@@ -1,0 +1,15 @@
+.headerItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	a {
+		text-decoration: none;
+		text-transform: capitalize;
+		color: black;
+		font-size: 16px;
+		line-height: 24px;
+		&:hover {
+			font-size: 20px;
+		}
+	}
+}
